@@ -173,6 +173,22 @@ class Home extends Component {
         x.className = "hidden";
     }
 
+    //Close window on device
+    windowUserCloseDevice = () => {
+        var x = document.getElementById("window-cv");
+        x.className = "hidden";
+    }
+
+    windowProyectsCloseDevice = () => {
+        var x = document.getElementById("window-proyects");
+        x.className = "hidden";
+    }
+
+    windowGameCloseDevice = () => {
+        var x = document.getElementById("window-games");
+        x.className = "hidden";
+    }
+
 
     onControlledDragCv = (e, position) => {
         const {x, y} = position;
@@ -228,7 +244,7 @@ class Home extends Component {
                                 <Draggable handle="strong" position={this.state.controlledPositionCv} onDrag={this.onControlledDragCv}>             
                                         <div className="box" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
                                         <div id="window-cv">
-                                            <strong className=" justify-content-between d-flex"><div className="window-name">Curriculum Vitae</div><div className="close" onClick={this.windowUserClose}>X</div></strong>
+                                            <strong className="justify-content-between d-flex"><div className="window-name">Curriculum Vitae</div><div className="close" onClick={this.windowUserClose} onTouchEnd={this.windowUserCloseDevice}>X</div></strong>
                                             
                                                 <div className="body-window">
                                                     <div className="row">
@@ -397,9 +413,9 @@ class Home extends Component {
                                 </Draggable>
 
                                 <Draggable handle="strong" position={this.state.controlledPositionFolder} onDrag={this.onControlledDragFolder}>             
-                                        <div className="box no-cursor" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
+                                        <div className="box" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
                                         <div id="window-proyects">
-                                            <strong className="cursor justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowProyectsClose}>X</div></strong>
+                                            <strong className="justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowProyectsClose} onTouchEnd={this.windowProyectsCloseDevice}>X</div></strong>
                                             
                                                 <div className="body-window">
                                                     <div className="topic">
@@ -586,7 +602,7 @@ class Home extends Component {
                                 <Draggable handle="strong" position={this.state.controlledPositionGame} onDrag={this.onControlledDragGame}>             
                                     <div className="box no-cursor" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
                                         <div id="window-games">
-                                            <strong className="cursor justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowGameClose}>X</div></strong>
+                                            <strong className="cursor justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowGameClose} onTouchEnd={this.windowGameCloseDevice}>X</div></strong>
                                             
                                             <div className="body-window">
                                                 <div className="topic">

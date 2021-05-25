@@ -214,7 +214,6 @@
     color: #fff;
     border-radius: 5px;
     padding: 0px 2px 2px 2px;
-    z-index: -1;
     border: 2px solid #00abd19d;
   }
   
@@ -298,9 +297,18 @@
     }
 
     #window-cv{
-      width: 389px;
-      height: 452px;
+      width: 389px !important;
+      height: 452px !important;
+    }
 
+    #window-proyects{
+      width: 389px !important;
+      height: 452px !important;
+    }
+
+    #window-games{
+      width: 389px !important;
+      height: 452px !important;
     }
   }
   
