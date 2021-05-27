@@ -364,7 +364,7 @@ class Home extends Component {
                                                             <div className="description-job" style={{textAlign:'center'}}>
                                                                 <span>Actualmente me encuentro tomando cursos e integrándome más en el área del de las TI’s, enfocándome en el desarrollo 
                                                                     de software tanto en el frontend especialmente en fremeworks como angular y react, así como en el backend en librerías 
-                                                                    como nodejs apoyándome en base de datos NoSQL y MySQL.
+                                                                    como nodejs apoyándome en base de datos NoSQL (MongoDB) y SQL (MySQL).
                                                                 </span>                                   
                                                             </div> 
                                                         </div>
