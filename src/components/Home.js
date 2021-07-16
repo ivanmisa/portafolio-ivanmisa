@@ -14,10 +14,6 @@ import { faAngular, faNode, faBootstrap, faStripe, faReact, faAndroid, faDigital
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./Card";
 
-
-
-
-
 class Home extends Component {
     constructor(props) {
         super(props)
@@ -41,9 +37,7 @@ class Home extends Component {
             duplicatedIconsCards: [],
             randomizedIconsCards: [],
             finalizedIconsCards: [],
-            openedIconsCards: [],
-            
-    
+            openedIconsCards: [],         
         };
         this.start()
     }
@@ -71,9 +65,6 @@ class Home extends Component {
         let start = document.getElementById("sectionStart");
         start.className = "ac-small";   
     }
-
-    
-    
 
     handleClick(name,index){
         if(this.state.openedIconsCards.length >= 2){
@@ -205,14 +196,6 @@ class Home extends Component {
         this.setState({controlledPositionGame: {x, y}});
     };
 
-
-
-
-
-  
-
-  
-
     render() {
         return (
             <body id="wrapper" class="on">
@@ -244,8 +227,7 @@ class Home extends Component {
                                 <Draggable handle="strong" position={this.state.controlledPositionCv} onDrag={this.onControlledDragCv}>             
                                         <div className="box" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
                                         <div id="window-cv">
-                                            <strong className="justify-content-between d-flex"><div className="window-name">Curriculum Vitae</div><div className="close" onClick={this.windowUserClose} onTouchEnd={this.windowUserCloseDevice}>X</div></strong>
-                                            
+                                            <strong className="justify-content-between d-flex"><div className="window-name">Curriculum Vitae</div><div className="close" onClick={this.windowUserClose} onTouchEnd={this.windowUserCloseDevice}>X</div></strong>                                          
                                                 <div className="body-window">
                                                     <div className="row">
                                                         <div className="col-5">
@@ -335,8 +317,7 @@ class Home extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </div>
-                                                            <br />
-                                                        
+                                                            <br />                                                      
                                                             <div className="job">
                                                                 <span>Ingeniero de pruebas (Test analyzer) en IBM / abril 2020 – enero 2021</span>
                                                             </div>                                           
@@ -391,7 +372,7 @@ class Home extends Component {
                                                             </ul>
                                                         </div>
                                                         <div className="topic-description">
-                                                            <span>OBJETIVO PROFESIONAL</span>
+                                                            <span>OBJETIVO  PROFESIONAL </span>
                                                         </div>
                                                         <div className="description-job" style={{textAlign:'center', fontSize: '14px'}}>
                                                             <span>Mi objetivo profesional va orientado a conseguir más conocimientos y experiencia laboral y así ser más productivo y 
@@ -399,7 +380,6 @@ class Home extends Component {
                                                                 trabajo agradable para mí y mis compañeros de trabajo.
                                                             </span>                                   
                                                         </div> 
-
                                                     </div>
                                                     <div className="conainer-cv">
                                                         <div className="button-download">
@@ -408,20 +388,17 @@ class Home extends Component {
                                                     </div>
                                                 </div>                                     
                                         </div>
-                                    </div>
-                                    
+                                    </div>                           
                                 </Draggable>
 
                                 <Draggable handle="strong" position={this.state.controlledPositionFolder} onDrag={this.onControlledDragFolder}>             
                                         <div className="box" style={{display: 'flex', flexDirection: 'column', visibility: 'hidden'}}>
                                         <div id="window-proyects">
-                                            <strong className="justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowProyectsClose} onTouchEnd={this.windowProyectsCloseDevice}>X</div></strong>
-                                            
+                                            <strong className="justify-content-between d-flex"><div className="window-name"> Portafolio de proyectos</div><div className="close" onClick={this.windowProyectsClose} onTouchEnd={this.windowProyectsCloseDevice}>X</div></strong>                                          
                                                 <div className="body-window">
                                                     <div className="topic">
                                                         <h2>Proyectos realizados</h2>
                                                     </div>
-
                                                     <div className="project">
                                                         <div className="name-project">
                                                             <h4>WasStory</h4>
