@@ -391,7 +391,7 @@ class Home extends Component {
                                                             </ul>
                                                         </div>
                                                         <div className="topic-description">
-                                                            <span>OBJECTIVO PROFECIONAL</span>
+                                                            <span>OBJETIVO PROFESIONAL</span>
                                                         </div>
                                                         <div className="description-job" style={{textAlign:'center', fontSize: '14px'}}>
                                                             <span>Mi objetivo profesional va orientado a conseguir más conocimientos y experiencia laboral y así ser más productivo y 
