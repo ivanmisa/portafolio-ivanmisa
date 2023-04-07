@@ -246,43 +246,46 @@ class Home extends Component {
                                                                 </div>                                           
                                                             </div>
                                                             <div className="address-user">
-                                                                <h6>Domicilio</h6>
+                                                                <h6>Address</h6>
                                                                 <p>Col. Toluquilla, Tlaquepaque, Jalisco</p>
-                                                                <h6>Fecha de nacimiento</h6>
+                                                                <h6>Birthdate</h6>
                                                                 <p>29-05-1995</p>
                                                             </div>                                          
                                                         </div>
                                                         <div className="col data-user">
                                                             <div className="topic-description">
-                                                                <span>FORMACION ACADEMICA</span>
+                                                                <span>EDUCATION</span>
                                                             </div>
                                                             <div className="data-description">
                                                                 <ul>
                                                                     <li>
-                                                                        Técnico en electrónica – CECyTEC / 2011 - 2014
+                                                                        Electronic Technician – CECyTEC / 2011 - 2014
                                                                     </li>
                                                                     <li>
-                                                                        Ingeniería en energía – UdeG - Centro universitario de Tonalá 
-                                                                        agosto 2014 – enero 2019
+                                                                        Energy Engineering – UdeG - Centro universitario de Tonalá 
+                                                                        2014 – 2019
                                                                     </li>
                                                                 </ul>
                                                             </div>
                                                             <div className="topic-description">
-                                                                <span>CONOCIMIENTOS</span>
+                                                                <span>KNOWLEDGE</span>
                                                             </div>
                                                             <div className="data-description">
                                                                 <ul>
                                                                     <li>
-                                                                        Conocimientos lenguajes de programación JavaScript, Python y Typescript.
+                                                                        JavaScript, Python and  Typescript.
                                                                     </li>
                                                                     <li>
-                                                                        Uso de distribuciones de Linux como Ubuntu.
+                                                                        Linux (Ubuntu).
                                                                     </li>
                                                                     <li>
-                                                                        Herramientas de office.
+                                                                        Database: MongoDb, MySQL and PostgreSQL.
                                                                     </li>
                                                                     <li>
-                                                                        Inglés: Básico-Intermedio.
+                                                                        Angular, NodeJs, Express.
+                                                                    </li>
+                                                                    <li>
+                                                                        English: Intermediate (B1).
                                                                     </li>
                                                                 </ul>
                                                             </div>                                       
@@ -291,99 +294,84 @@ class Home extends Component {
                                                 
                                                     <div>
                                                         <div className="topic-description">
-                                                            <span>EXPERIENCIA LABORAL</span>
+                                                            <span>WORK EXPERIENCE</span>
                                                         </div>
                                                         <div className="data-description">
                                                             <div className="job">
-                                                                <span>Instalador de sistemas fotovoltaicos residenciales y empresariales en “Energía Libre” / febrero 2019 – marzo 2020</span>
+                                                                <span>Software enginner Jr at ASSETEL / August  2022  – Present</span>
                                                             </div>
                                                             <div className="description-job">
-                                                                <span>Responsabilidades</span>
+                                                                <span>Responsibilities</span>
                                                                 <ul>
-                                                                    <li>
-                                                                        Visitas con el cliente.
-                                                                    </li>
-                                                                    <li>
-                                                                        Armado de estructura.
-                                                                    </li>
-                                                                    <li>
-                                                                        Montado de paneles fotovoltaicos.
-                                                                    </li>
-                                                                    <li>
-                                                                        Cableado eléctrico.
-                                                                    </li>
-                                                                    <li>
-                                                                        Tubería y conexión a la red eléctrica.
-                                                                    </li>
+                                                                    <li>Develop or modify Odoo modules.</li>
+                                                                    <li>Development of Qweb reports and XML views.</li>
+                                                                    <li>Develop and modify functions in Python.</li>
+                                                                    <li>Analyze customer requirements to detect needs and propose solutions.</li>
+                                                                    <li>Training end users.</li>
                                                                 </ul>
                                                             </div>
-                                                            <br />                                                      
+                                                            <br /> 
                                                             <div className="job">
-                                                                <span>Ingeniero de pruebas (Test analyzer) en IBM / abril 2020 – enero 2021</span>
+                                                                <span>Web developer at likeoh / March 2021 – July 2022</span>
                                                             </div>                                           
                                                             <div className="description-job">
                                                                 <span>Responsabilidades</span>
                                                                 <ul>
-                                                                    <li>
-                                                                        Estar correctamente capacitado en los sistemas internos que administra IBM.
-                                                                    </li>
-                                                                    <li>
-                                                                        Efectuar pruebas funcionales, diagnóstico y reparación a los sistemas, haciendo cumplir las normas de calidad.
-                                                                    </li>
-                                                                    <li>
-                                                                        Realizar pruebas a los sistemas requeridos por el departamento de ingeniería.
-                                                                    </li>
-                                                                    <li>
-                                                                        Reparación express de fallas en los equipos y aseguramiento del flujo del producto al siguiente proceso.
-                                                                    </li>
+                                                                    <li>Frontend in Angular 12 ( www.likeoh.com  ) </li>
+                                                                    <li>Backend in Nodejs and express.</li>
+                                                                    <li>MongoDB database.</li>
+                                                                    <li>Socket.IO for real-time messaging and notifications.</li>
+                                                                    <li>Cloud deployment (DigitalOcean).</li>
+                                                                    <li>CI/CD flow with Github actions</li>
+                                                                    <li>AWS S3 for image storage</li>
+                                                                    <li>Develop mobile application with Ionic/Angular (playstore).</li>
+                                                                    <li>Test API with Postman.</li>
+                                                                    <li>Create development environments with Docker.</li>
                                                                 </ul>
-                                                            </div>
-                                                            <br />
+                                                            </div>  
+                                                            <br />                                                   
                                                             <div className="job">
-                                                                <span>Enero 2021 – Actualidad</span>
-                                                            </div> 
-                                                            <div className="description-job" style={{textAlign:'center'}}>
-                                                                <span>Actualmente me encuentro tomando cursos e integrándome más en el área del de las TI’s, enfocándome en el desarrollo 
-                                                                    de software tanto en el frontend especialmente en fremeworks como angular y react, así como en el backend en librerías 
-                                                                    como nodejs apoyándome en base de datos NoSQL (MongoDB) y SQL (MySQL).
-                                                                </span>                                   
-                                                            </div> 
+                                                                <span>Test analyzer (Power systems) at IBM  / April 2020 – January 2021</span>
+                                                            </div>                                           
+                                                            <div className="description-job">
+                                                                <span>Responsibilities</span>
+                                                                <ul>
+                                                                    <li>Be trained in internal systems managed by IBM.</li>
+                                                                    <li>Server configuration.</li>
+                                                                    <li>Functional tests, diagnosis and repair of systems.</li>
+                                                                    <li>Express equipment repair.</li>
+                                                                    <li>Debugging of ibm servers.</li>
+                                                                    <li>Working with Linux.</li>
+                                                                    <li>Bug documentation.</li>
+                                                                    <li>Ensure product flow to the next process.</li>
+                                                                </ul>
+                                                            </div>                                                      
                                                         </div>
                                                         <div className="topic-description">
-                                                            <span>APTITUDES Y HABILIDADES</span>
+                                                            <span>SKILLS</span>
                                                         </div>
                                                         <div className="user-points">
                                                             <ul>
-                                                                <li>
-                                                                    Responsable
-                                                                </li>
-                                                                <li>
-                                                                    Trabajo bajo presión
-                                                                </li>
-                                                                <li>
-                                                                    Facilidad de aprendizaje
-                                                                </li>
-                                                                <li>
-                                                                    Autodidacta
-                                                                </li>
-                                                                <li>
-                                                                    Facilidad de trabajo en equipo
-                                                                </li>
+                                                                <li>Responsible</li>
+                                                                <li>Autodidact</li>
+                                                                <li>Ease of learning</li>
+                                                                <li>Work under pressure</li>
+                                                                <li>Ease of teamwork</li>
                                                             </ul>
                                                         </div>
-                                                        <div className="topic-description">
+                                                        <div className="topic-description" style={{display: 'none'}}>
                                                             <span>OBJETIVO  PROFESIONAL </span>
                                                         </div>
-                                                        <div className="description-job" style={{textAlign:'center', fontSize: '14px'}}>
+                                                        <div className="description-job" style={{textAlign:'center', fontSize: '14px', display: 'none'}}>
                                                             <span>Mi objetivo profesional va orientado a conseguir más conocimientos y experiencia laboral y así ser más productivo y 
                                                                 eficaz en una empresa que me permita crecer personal y profesionalmente, al mismo tiempo construir un ambiente de 
                                                                 trabajo agradable para mí y mis compañeros de trabajo.
                                                             </span>                                   
-                                                        </div> 
+                                                        </div>
                                                     </div>
                                                     <div className="conainer-cv">
                                                         <div className="button-download">
-                                                            <a href={cv} target="_blank">Ver/Descargar CV</a>
+                                                            <a href={cv} target="_blank">View/Download CV</a>
                                                         </div>
                                                     </div>
                                                 </div>                                     
